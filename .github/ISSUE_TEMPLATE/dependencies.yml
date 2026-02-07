@@ -1,0 +1,11 @@
+name: 📦 依存関係
+description: ライブラリ更新・警告対応
+title: "[Deps] "
+labels: ["dependencies"]
+body:
+  - type: textarea
+    attributes:
+      label: 内容
+      placeholder: ffmpeg を最新版に更新
+    validations:
+      required: true
