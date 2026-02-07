@@ -1,0 +1,26 @@
+name: 🐛 バグ報告
+description: 動かない・おかしい挙動
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: 何が起きた？
+      placeholder: ページ読むとエラーになる
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 再現手順
+      placeholder: |
+        1. ボタンを押す
+        2. ページが開く
+        3. エラー表示
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 環境（任意）
+      placeholder: android11 chrome132.xxx
