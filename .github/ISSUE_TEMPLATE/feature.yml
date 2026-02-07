@@ -1,0 +1,15 @@
+name: ✨ 機能要望
+description: こうなったら嬉しい
+title: "[Feature] "
+labels: ["feature"]
+body:
+  - type: textarea
+    attributes:
+      label: 内容
+      placeholder: バリエーションを増やして欲しい
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 理由（任意）
