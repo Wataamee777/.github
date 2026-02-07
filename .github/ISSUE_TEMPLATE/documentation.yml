@@ -1,0 +1,11 @@
+name: 📄 ドキュメント
+description: README や説明文の修正
+title: "[Docs] "
+labels: ["documentation"]
+body:
+  - type: textarea
+    attributes:
+      label: 修正・追加したい内容
+      placeholder: セットアップ手順が分かりにくい
+    validations:
+      required: true
