@@ -1,0 +1,11 @@
+name: ❓ 質問
+description: 使い方・仕様について
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: textarea
+    attributes:
+      label: 質問内容
+      placeholder: 最新版はどこで手に入りますか？
+    validations:
+      required: true
